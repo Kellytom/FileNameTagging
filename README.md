@@ -112,9 +112,11 @@ The clipboard might look like this:
 `(-1gat -3gat enamelif.txt):`  
 `filename tag1- tag3-.txt`
 
-#### What is in this Git collection
+#### What is in this Git collection:
+
 https://github.com/Kellytom/FileNameTagging/blob/master/To%20Do.md#to-do
+https://github.com/Kellytom/FileNameTagging/blob/master/Outline%20of%20Simple%20Sorter%20Program.md#outline-of-simple-sorter-program
 
 #### Conclusion
 
-Input and suggestions are welcome. 
+Input and suggestions are welcome. I am just an amateur hacker, so any robust programming will have to be done by someone else. I will pursue some simple ideas in python, pythonista, and perhaps visual basic.
