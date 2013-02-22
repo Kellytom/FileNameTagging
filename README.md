@@ -114,8 +114,9 @@ The clipboard might look like this:
 
 #### What is in this Git collection:
 
-https://github.com/Kellytom/FileNameTagging/blob/master/To%20Do.md#to-do
-https://github.com/Kellytom/FileNameTagging/blob/master/Outline%20of%20Simple%20Sorter%20Program.md#outline-of-simple-sorter-program
+https://github.com/Kellytom/FileNameTagging/blob/master/Comments.md
+https://github.com/Kellytom/FileNameTagging/blob/master/To%20Do.md
+https://github.com/Kellytom/FileNameTagging/blob/master/Outline%20of%20Simple%20Sorter%20Program.md
 
 #### Conclusion
 
