@@ -112,6 +112,9 @@ The clipboard might look like this:
 `(-1gat -3gat enamelif.txt):`  
 `filename tag1- tag3-.txt`
 
+#### What is in this Git collection
+https://github.com/Kellytom/FileNameTagging/blob/master/To%20Do.md#to-do
+
 #### Conclusion
 
 Input and suggestions are welcome. 
