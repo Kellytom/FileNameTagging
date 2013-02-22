@@ -114,4 +114,4 @@ The clipboard might look like this:
 
 #### Conclusion
 
-Input and suggestions are welcome. I will put it on Github for review and improvement.
+Input and suggestions are welcome. 
