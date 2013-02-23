@@ -5,9 +5,11 @@ FileNameTagging
 ## Proposed Convention for File Naming with Tags
 ### File Name Tagging
 
-I have considered long (several months) and hard (for me) how to organize my files. Here I want to propose a "standard" for filenames that would allow sorting files by tags or labels. The operating systems and programs involved include Windows, ios Dropbox, Google Drive, Evernote, and others. The other operating systems are ones I don't use: Linux, any ix, OS X, etc. so I am ignorant of their details.
+>"It belongs to the wise man to order things."
 
-I propose ending filenames with the tags. The filenames are then sorted in reverse order. The standard can be used for bookmarks, posts, or filenames, or anything that needs to be organized.
+I have considered long (several months) and hard (for me) how to organize my files. Here I want to propose a "standard" for filenames that would allow sorting files by tags or labels. The operating systems and programs involved include Windows, ios, Dropbox, Google Drive, Evernote, and others. The other operating systems are ones I don't use: Linux, any *nix, OS X, etc. so I am ignorant of their details.
+
+I propose ending filenames with the tags. The filenames are then sorted on the tags, not the filename. The standard can be used for bookmarks, posts, or filenames, or anything that needs to be organized.
 
 #### Level 1:
 
@@ -21,9 +23,9 @@ The next level is to append a special character like "-" at the end of the filen
 
 `My filename writing-.txt`
 
-This gives us at least one tag to sort by.
+This gives us at least one tag to sort by. By using a special tag flag character the program can determine if there are tags in the filename or if the file is untagged. Untagged files would be in a separate sort by plain alphabetical.
 
-*OPTION: Level 2 can be skipped* and the tag flag can be put at the beginning of the tag. It is a programmer's preference. Example:
+*OPTION: Level 2 can be modified* and the tag flag can be put at the beginning of the tag. It is a programmer's preference. Example:
 
 `my filename -writing.txt`
 
@@ -34,7 +36,7 @@ https://github.com/Kellytom/FileNameTagging/blob/master/Simple%20Sorter%20Workfl
 
 #### Level 3:
 
-The next level is to put as many tags as possible, including numbers or letters for sequential order. For example:
+The next level is to put as many tags as desired, including numbers or letters for sequential order. For example:
 
 `filename1 -002 -writing.txt`
 `filename2 -003 -writing.txt`
@@ -83,7 +85,11 @@ results in:
 `tag1- filename1.txt  
 tag2- filename1.txt`
 
-At minimum, the helping program would give a view of the files sorted by tag. Then the files could be opened in their respective applications by hand. A more robust solution would allow the user to add tags, rename files, and open them on a click. A list of links could be exported in various file formats, including HTML to make a webpage.
+At minimum, the helping program would give a view of the files sorted by tag. Then the files could be opened in their respective applications by hand. 
+
+A more robust solution would allow the user to add tags, rename files, and open them on a click. An ordered list of files could be changes to insert, remove, or reorder the files. For example, if files were numbered 1 to 100, and a new file added at 57, everything after 57 would automatically be renumberd to 101. 
+
+A list of links could be exported in various file formats, including HTML to make a webpage.
 
 #### Level 5:
 
@@ -93,6 +99,11 @@ At minimum, the helping program would give a view of the files sorted by tag. Th
 - make sure the user does not enter unsafe characters.
 - make sure the rename does not conflict with an open file.
 - make sure the user doesn't enter the dash himself, resulting in a double dash.
+
+
+#### Level 6:
+
+I am dreaming, but I would like to see all major vendors adopt this standard and incorporate it into their finders and browsers and file operating systems. Then I would have to program anything, and I could import my text files into an editor in the correct order. I could select just the files I wanted to write a paper or a book. It would be fun.
 
 #### Variations
 
