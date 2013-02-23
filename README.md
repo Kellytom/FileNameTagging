@@ -23,11 +23,21 @@ The next level is to append a special character like "-" at the end of the filen
 
 This gives us at least one tag to sort by.
 
+*Level 2 can be skipped* and the tag flag can be put at the beginning of the tag. It is a programmer's preference. Example:
+
+`my filename -writing.txt`
+
+
+
 #### Level 3:
 
-The next level is to put as many tags as possible, including numbers for sequential order. For example:
+The next level is to put as many tags as possible, including numbers or letters for sequential order. For example:
 
-`filename 001 writing-.txt`
+`filename1 -002 -writing.txt`
+`filename2 -003 -writing.txt`
+`filename3 -001 -writing.txt`
+`filename4 -qqq -writing.txt`
+`filename5 -qqr -writing.txt`
 
 #### Level 4:
 
@@ -35,7 +45,10 @@ The next level is to put as many tags as possible, including numbers for sequent
 
 The rest of the proposed convention would have to do with programs and methods to do the sorting and tagging of different files or bookmarks or posts. 
 
-- The advantage of this system is that it can be used immediately with most existing programs that do file searches. For example, a sort for "fun-" would turn up all files including the word "fun-"
+- The advantage of this system is that it can be used immediately with most existing programs that do file searches. For example, a sort for "-fun" would turn up all files including the word "-fun". The disadvantage is that if the filename includes the word fun, and it is delimited by "-" ahead of time, a search would find "-fun" in a file that was untagged. I hope this is a minor fact. For example:
+
+`Girls-just-want-to-have-fun.txt` would be found in a search.
+
 
 - Each system and program would need a separate method to view, sort, and rename the files.
 
@@ -43,13 +56,14 @@ The rest of the proposed convention would have to do with programs and methods t
 
 - The absolute simplest solution would be that the filenames could be sorted by direct reverse order Direct reverse order would give a sort result something like:
 
-`(-1gat enamelif.txt):`  
+`(1gat- enamelif.txt):`  
 `filename tag1-.txt`    
-`(-1gat -2gat enamelif.txt):`  
+`(1gat- -2gat enamelif.txt):`  
 `filename tag1- tag2-.txt`  
-`(-1gat -3gat enamelif.txt):`  
+`(-1gat- -3gat enamelif.txt):`  
 `filename tag1- tag3-.txt`
 
+This would basically sort on the last tag, then the second to- last tag, etc.
 
 - The next step is to parse or sort in a more complicated way. Each tag could make a separate entry for the file, e.g.
 
