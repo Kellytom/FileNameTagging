@@ -17,7 +17,7 @@ it looks like this in markdown:
 
 When you are done, copy the title of your file. Click on the "name your file" box at the top and paste in your filename. Add a ".md" extension. Click on the button at the bottom named "Commit new file" 
 
-Click on the Files tab again, and it will give you a list of files in your repo. Click on your file to see what it looks like. You can also edit it and commit it again. There is a preview button on the top left of the editing screen.
+Click on the Files tab again, and it will give you a list of files in your repo. Click on your file to see what it looks like. You can also edit it and commit it again. There is an edit button on the top right side. There is a preview button on the top left of the editing screen. I like the zen editing mode (the button looks like a picture frame on the top left hand side of the file.
 
 #### What files should I make?
 
