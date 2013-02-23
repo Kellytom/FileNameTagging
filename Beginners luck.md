@@ -17,4 +17,6 @@ it looks like this in markdown:
 
 When you are done, copy the title of your file. Click on the "name your file" box at the top and paste in your filename. Add a ".md" extension. Clickk on the button at the bottom named "Commit new file" 
 
+Click on the Files tab again, and it will give you a list of files in your repo.
+
 You are done!
