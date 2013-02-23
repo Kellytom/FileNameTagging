@@ -23,10 +23,13 @@ The next level is to append a special character like "-" at the end of the filen
 
 This gives us at least one tag to sort by.
 
-*Level 2 can be skipped* and the tag flag can be put at the beginning of the tag. It is a programmer's preference. Example:
+*OPTION: Level 2 can be skipped* and the tag flag can be put at the beginning of the tag. It is a programmer's preference. Example:
 
 `my filename -writing.txt`
 
+The reasoning for the location of the tag flag character is discussed elsewhere in the simple sort workflow:
+
+https://github.com/Kellytom/FileNameTagging/blob/master/Simple%20Sorter%20Workflow%20with%20a%20Spreadsheet.md
 
 
 #### Level 3:
@@ -54,14 +57,20 @@ The rest of the proposed convention would have to do with programs and methods t
 
 - I would call the program that uses this convention just to view and sort the files and perhaps rename them a "helping program."
 
-- The absolute simplest solution would be that the filenames could be sorted by direct reverse order Direct reverse order would give a sort result something like:
+-I have done a simple proof of concept in a spreadsheet. This involves no programming, no if statements and no loops. Check it out at:
 
-`(1gat- enamelif.txt):`  
-`filename tag1-.txt`    
-`(1gat- -2gat enamelif.txt):`  
-`filename tag1- tag2-.txt`  
-`(-1gat- -3gat enamelif.txt):`  
-`filename tag1- tag3-.txt`
+https://github.com/Kellytom/FileNameTagging/blob/master/Simple%20Sorter%20Workflow%20with%20a%20Spreadsheet.md
+
+- Perhaps the absolute simplest solution for a programmer would be that the filenames could be sorted by direct reverse order. Direct reverse order would give a sort result something like:
+
+`(1gat- 1enamelif):`  
+`filename1 -tag1.txt`    
+``
+`(1gat- 2gat- 3enamelif):`  
+`filename3 -tag1 -tag2.txt`  
+``
+`(1gat- 3gat- 2enamelif):`  
+`filename2 -tag1 -tag3.txt`
 
 This would basically sort on the last tag, then the second to- last tag, etc.
 
@@ -71,10 +80,10 @@ This would basically sort on the last tag, then the second to- last tag, etc.
 
 results in:
 
-`tag1- filename.txt  
-tag2- filename.txt`
+`tag1- filename1.txt  
+tag2- filename1.txt`
 
-At minimum, the helping program would give a view of the files sorted by tag. Then the files could be opened in their respective applications by hand.
+At minimum, the helping program would give a view of the files sorted by tag. Then the files could be opened in their respective applications by hand. A more robust solution would allow the user to add tags, rename files, and open them on a click. A list of links could be exported in various file formats, including HTML to make a webpage.
 
 #### Level 5:
 
@@ -83,15 +92,17 @@ At minimum, the helping program would give a view of the files sorted by tag. Th
 - to make sure the filenames are not too long,
 - make sure the user does not enter unsafe characters.
 - make sure the rename does not conflict with an open file.
+- make sure the user doesn't enter the dash himself, resulting in a double dash.
 
 #### Variations
 
-- Use another character at the end, instead of "-"; "the tag flag character" I could recommend any one of these: "-,Q,QQ, _" Personally I like "-"
+- Use another character at the end, instead of "-"; "the tag flag character" I could recommend any one of these: "-,Q,QQ, _,=,>" Personally I like "-"
 
-- Put the "tag flag character" after every tag, for example:
+- Put the "tag flag character" before and after every tag, for example:
 
-`filename write- edit- scrivener-.txt`
+`filename -write- -edit- -scrivener-.txt`
 
+A programmer might have good reasons for this.
 
 #### Principles
 
