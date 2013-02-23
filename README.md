@@ -119,7 +119,7 @@ https://github.com/Kellytom/FileNameTagging/blob/master/To%20Do.md
 https://github.com/Kellytom/FileNameTagging/blob/master/Wishlist.md
 https://github.com/Kellytom/FileNameTagging/blob/master/Roadmap.md
 https://github.com/Kellytom/FileNameTagging/blob/master/Outline%20of%20Simple%20Sorter%20Program.md
-
+https://github.com/Kellytom/FileNameTagging/blob/master/Simple%20Sorter%20Workflow%20with%20a%20Spreadsheet.md
 #### Conclusion
 
 Input and suggestions are welcome. I am just an amateur hacker, so any robust programming will have to be done by someone else. I will pursue some simple ideas in python, pythonista, and perhaps visual basic.
