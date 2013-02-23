@@ -7,7 +7,7 @@ FileNameTagging
 
 >"It belongs to the wise man to order things."
 
-I have considered long (several months) and hard (for me) how to organize my files. Here I want to propose a "standard" for filenames that would allow sorting files by tags or labels. The operating systems and programs involved include Windows, ios, Dropbox, Google Drive, Evernote, and others. The other operating systems are ones I don't use: Linux, any *nix, OS X, etc. so I am ignorant of their details.
+I have considered long (several months) and hard (for me) how to organize my files. Here I want to propose a "standard" for filenames that would allow sorting files by tags or labels. 
 
 I propose ending filenames with the tags. The filenames are then sorted on the tags, not the filename. The standard can be used for bookmarks, posts, or filenames, or anything that needs to be organized.
 
@@ -67,10 +67,10 @@ https://github.com/Kellytom/FileNameTagging/blob/master/Simple%20Sorter%20Workfl
 
 `(1gat- 1enamelif):`  
 `filename1 -tag1.txt`    
-``
+``  
 `(1gat- 2gat- 3enamelif):`  
 `filename3 -tag1 -tag2.txt`  
-``
+``  
 `(1gat- 3gat- 2enamelif):`  
 `filename2 -tag1 -tag3.txt`
 
@@ -103,7 +103,7 @@ A list of links could be exported in various file formats, including HTML to mak
 
 #### Level 6:
 
-I am dreaming, but I would like to see all major vendors adopt this standard and incorporate it into their finders and browsers and file operating systems. Then I would have to program anything, and I could import my text files into an editor in the correct order. I could select just the files I wanted to write a paper or a book. It would be fun.
+I am dreaming, but I would like to see all major vendors adopt this standard and incorporate it into their finders and browsers and file operating systems. Then I would not have to program anything, and I could import my text files into an editor in the correct order. I could select just the files I wanted to write a paper or a book. It would be fun.
 
 #### Variations
 
@@ -123,39 +123,65 @@ A programmer might have good reasons for this.
 
 #### Background
 
-As I said before, I have considered long  and hard how to organize my files. More on that here. These are the methods and programs I have tried or investigated:
+As I said before, I have considered long  and hard how to organize my files. These are the methods and programs I have tried or partially investigated:
 
 - Scrivener
 - Markdown
 - Wordpresss
 - Evernote
+- Dropbox
+- Google Drive
+- Sublime Text 2
 - etc.
 
 I want to write articles, small books, programs, scripts and posts. I need to organize the material (clips, snippets, scraps) into drafts. The drafts need to be reorganized into finished works. Each step requires easy reorganization. That is why I want to use this file naming scheme.
+
+The operating systems and programs involved include Windows, ios, Dropbox, Google Drive, Evernote, and others. The other operating systems this standard should be compatible with are ones I don't use: Linux, any *nix, OS X, etc. but I am ignorant of their details. I need to do some research here.
 
 #### The Simplest method
 
 The simplest method would be to take the clipboard, sort it, and put it back on the clipboard. The sort would be a simple reverse order sort so the file would look like this:
 
-`-1gat enamelif.txt` 
+`1gat- enamelif` 
 
 The clipboard might look like this:
 
-`(-1gat enamelif.txt):`  
-`filename tag1-.txt`    
-`(-1gat -2gat enamelif.txt):`  
-`filename tag1- tag2-.txt`  
-`(-1gat -3gat enamelif.txt):`  
-`filename tag1- tag3-.txt`
+`(1gat- 1enamelif):`  
+`filename1 -tag1.txt`    
+``  
+`(1gat- 2gat- 3enamelif):`  
+`filename3 -tag1 -tag2.txt`  
+``  
+`(1gat- 3gat- 2enamelif):`  
+`filename2 -tag1 -tag3.txt`
 
 #### What is in this Git collection:
 
 https://github.com/Kellytom/FileNameTagging/blob/master/Comments.md
+
+- my comments, and please feel free to add your own.
+
 https://github.com/Kellytom/FileNameTagging/blob/master/To%20Do.md
+
+- my to do list, and please feel free to add your own.
+ 
 https://github.com/Kellytom/FileNameTagging/blob/master/Wishlist.md
+
+- my wishlist, and please feel free to add your own.
+
 https://github.com/Kellytom/FileNameTagging/blob/master/Roadmap.md
+
+- my roadmap, and please feel free to add your own.
+
 https://github.com/Kellytom/FileNameTagging/blob/master/Outline%20of%20Simple%20Sorter%20Program.md
+
+- my pseudo code, and please feel free to add your own.
+
 https://github.com/Kellytom/FileNameTagging/blob/master/Simple%20Sorter%20Workflow%20with%20a%20Spreadsheet.md
+
+- my Workflows, and please feel free to add your own.
+
+
 #### Conclusion
 
 Input and suggestions are welcome. I am just an amateur hacker, so any robust programming will have to be done by someone else. I will pursue some simple ideas in python, pythonista, and perhaps visual basic.
