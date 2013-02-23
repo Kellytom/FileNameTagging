@@ -17,9 +17,11 @@ This is the simplest level. Like so:
 
 `My filename writing.txt`
 
+I can't recommend this because it would lead to confusion about which files were tagged and which were untagged.
+
 #### Level 2:
 
-The next level is to append a special character like "-" at the end of the filename. I call that character "the tag flag character." Like so:
+The next level is to append a special character like "-" next to the tags. I call that character "the tag flag character." Like so:
 
 `My filename writing-.txt`
 
@@ -33,6 +35,11 @@ The reasoning for the location of the tag flag character is discussed elsewhere 
 
 https://github.com/Kellytom/FileNameTagging/blob/master/Simple%20Sorter%20Workflow%20with%20a%20Spreadsheet.md
 
+I prefer this solution:
+
+`my filename -writing.txt`
+
+putting the flag character at the beginning of the tag, along with a space.
 
 #### Level 3:
 
@@ -52,14 +59,15 @@ The rest of the proposed convention would have to do with programs and methods t
 
 - The advantage of this system is that it can be used immediately with most existing programs that do file searches. For example, a sort for "-fun" would turn up all files including the word "-fun". The disadvantage is that if the filename includes the word fun, and it is delimited by "-" ahead of time, a search would find "-fun" in a file that was untagged. I hope this is a minor fact. For example:
 
-`Girls-just-want-to-have-fun.txt` would be found in a search.
+`Girls-just-want-to-have-fun.txt` would be found in a search. A dedicated spreadsheet or program would detect the " -" space before the dash.
 
 
-- Each system and program would need a separate method to view, sort, and rename the files.
+
+- Each operating system and program would need a separate method to view, sort, and rename the files.
 
 - I would call the program that uses this convention just to view and sort the files and perhaps rename them a "helping program."
 
--I have done a simple proof of concept in a spreadsheet. This involves no programming, no if statements and no loops. Check it out at:
+- I have done a simple proof of concept in a spreadsheet. This involves no programming, no if statements and no loops. Check it out at:
 
 https://github.com/Kellytom/FileNameTagging/blob/master/Simple%20Sorter%20Workflow%20with%20a%20Spreadsheet.md
 
